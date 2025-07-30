@@ -1,1 +1,5 @@
+title: Coding-Projects-Portfolio
+description: Welcome! This repository showcases the projects I completed as part of my journey through FreeCodeCamp’s web development curriculum. 
+Each project was an opportunity not just to apply what I learned—but to make it my own.
+theme: jekyll-theme-modernist
 gem "jekyll-theme-modernist"
