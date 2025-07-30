@@ -43,7 +43,5 @@ These projects represent more than practice—they’re proof of my creativity, 
 
 ## 🙌 Let’s Connect
 
-Have feedback or want to collaborate?  
-📧 jeremiahedison@email.com  
-🌐 [Your LinkedIn or Portfolio Link]
+Have feedback or want to collaborate?
 
