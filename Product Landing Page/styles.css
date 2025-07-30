@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    padding-top: 80px; /* To account for the fixed header */
+}
+
+.section-padding {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Header and Navigation */
+#header {
+    display: flex; /* Flexbox! */
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Navbar always at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+#header-img {
+    max-width: 150px;
+    height: auto;
+}
+
+#nav-bar ul {
+    list-style: none;
+    display: flex; /* Flexbox for nav links */
+}
+
+#nav-bar ul li {
+    margin-left: 25px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #e6f2ff;
+    padding: 100px 20px 60px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #0056b3;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#form {
+    display: flex; /* Flexbox for form elements */
+    justify-content: center;
+    gap: 10px; /* Space between input and button */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+#email {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 300px;
+    max-width: 90%;
+}
+
+#submit {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+    background-color: #0056b3;
+}
+
+/* Features Section */
+#features {
+    background-color: #fff;
+}
+
+#features h2 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+}
+
+.features-grid {
+    display: flex; /* Flexbox for feature items */
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    flex-basis: 300px; /* Base width for items */
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.feature-item .icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.feature-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* How It Works Section */
+#how-it-works {
+    background-color: #e6f2ff;
+}
+
+#how-it-works h2 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #000; /* Placeholder for video background */
+    aspect-ratio: 16 / 9; /* Maintain 16:9 aspect ratio */
+}
+
+#video {
+    width: 100%;
+    height: 100%;
+}
+
+/* Pricing Section */
+#pricing {
+    background-color: #fff;
+}
+
+#pricing h2 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+}
+
+.pricing-cards {
+    display: flex; /* Flexbox for pricing cards */
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.price-card {
+    flex-basis: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.price-card:hover {
+    transform: translateY(-5px);
+}
+
+.price-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.price-card h4 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.price-card ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.price-card ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #header-img {
+        margin-bottom: 10px;
+    }
+
+    #nav-bar ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #nav-bar ul li {
+        margin: 5px 0;
+    }
+
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+
+    #form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features-grid,
+    .pricing-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-item,
+    .price-card {
+        width: 90%; /* Adjust width for smaller screens */
+        max-width: 400px;
+    }
+}

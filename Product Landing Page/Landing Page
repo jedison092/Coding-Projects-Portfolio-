@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="header">
+        <img id="header-img" src="https://via.placeholder.com/150x50?text=Product+Logo" alt="Product Logo">
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Discover Our Amazing Product</h1>
+            <p>Your one-stop solution for all your needs.</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <input type="submit" id="submit" value="Get Started">
+            </form>
+        </section>
+
+        <section id="features" class="section-padding">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-magic icon"></i>
+                    <h3>Innovative Design</h3>
+                    <p>Sleek and intuitive design for an unparalleled user experience.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-cogs icon"></i>
+                    <h3>Powerful Performance</h3>
+                    <p>Optimized for speed and efficiency, delivering top-notch performance.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-life-ring icon"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Our dedicated team is always ready to assist you, day or night.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="section-padding">
+            <h2>How It Works</h2>
+            <div class="video-container">
+                <iframe id="video" src="https://www.youtube.com/watch?v=_dY-UTkiocg" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="pricing" class="section-padding">
+            <h2>Pricing Plans</h2>
+            <div class="pricing-cards">
+                <div class="price-card">
+                    <h3>Basic</h3>
+                    <h4>$9.99/month</h4>
+                    <ul>
+                        <li>Feature A</li>
+                        <li>Feature B</li>
+                        <li>Limited Support</li>
+                    </ul>
+                    <button class="btn">Select Plan</button>
+                </div>
+                <div class="price-card">
+                    <h3>Pro</h3>
+                    <h4>$19.99/month</h4>
+                    <ul>
+                        <li>All Basic Features</li>
+                        <li>Feature C</li>
+                        <li>Priority Support</li>
+                    </ul>
+                    <button class="btn">Select Plan</button>
+                </div>
+                <div class="price-card">
+                    <h3>Enterprise</h3>
+                    <h4>$49.99/month</h4>
+                    <ul>
+                        <li>All Pro Features</li>
+                        <li>Custom Solutions</li>
+                        <li>Dedicated Manager</li>
+                    </ul>
+                    <button class="btn">Select Plan</button>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Awesome Product. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit-code.js" crossorigin="anonymous"></script>
+</body>
+</html>

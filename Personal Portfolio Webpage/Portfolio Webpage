@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeremiah Edison - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">Welcome</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a id="profile-link" href="https://github.com/your-github-profile" target="_blank">GitHub Profile</a></li>
+            </ul>
+    </nav>
+
+    <section id="welcome-section">
+        <h1>Hello, I'm Jeremiah Edison</h1>
+        <p>I’m Jeremiah Edison — a creative, community-focused leader with a heart for connection and growth. Over the past few weeks, I’ve been diving into the world of coding, and I’m genuinely excited about the doors it opens. Learning to code has sparked a new level of creativity and problem-solving in me, and I’m eager to keep growing, building, and using these skills to make a meaningful impact.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-tile">
+            <h3>Project One</h3>
+            <p>A brief description of your first project.</p>
+            <a href="https://example.com/project1" target="_blank">View Project</a>
+        </div>
+        <div class="project-tile">
+            <h3>Project Two</h3>
+            <p>A brief description of your second project.</p>
+            <a href="https://example.com/project2" target="_blank">View Project</a>
+        </div>
+        </section>
+
+    <footer>
+        <p>&copy; 2025 Jeremiah Edison. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
