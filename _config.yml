@@ -1,1 +1,1 @@
-theme: modernist
+gem "jekyll-theme-modernist"
